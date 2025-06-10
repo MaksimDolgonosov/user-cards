@@ -3,6 +3,8 @@ import { Search } from "components/Search";
 // import { ThHTMLAttributes } from "react";
 // import { ThemeSwitcher } from "components/ThemeSwitcher";
 import { TheHeader } from "components/TheHeader";
+import { UserCard } from "components/UserCard";
+import { defaultUser } from "mock";
 
 function App() {
   const onSubmit = (text: string) => {
@@ -13,6 +15,7 @@ function App() {
       <Container>
         <TheHeader />
         <Search hasError onSubmit={onSubmit} />
+        <UserCard {...defaultUser} />
       </Container>
     </>
   );
