@@ -30,14 +30,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--gray-50);
 }
-
 body[data-theme="dark"] {
   background-color: var(--gray-500);
 }
-body[data-theme="light"] {
-  background-color: var(--gray-50);
-}
-
 a {
   font-family: "Space Mono", monospace;
 }
