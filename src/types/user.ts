@@ -1,7 +1,6 @@
 type BASE_URL = "https://api.github.com/users/";
 export type LocalGithubUser = {
   login: string;
-  id: number;
   avatar: string;
   name: string;
   company: string;

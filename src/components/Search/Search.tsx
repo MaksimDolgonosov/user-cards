@@ -20,7 +20,7 @@ export const Search = ({ hasError, onSubmit }: SearchProps) => {
     event.preventDefault();
 
     // console.log(event.currentTarget.username.value);
-    console.log(event.currentTarget);
+    // console.log(event.currentTarget);
     const text = searchRef.current?.value ? searchRef.current?.value : "";
     onSubmit(text);
     if (searchRef.current) searchRef.current.value = "";
